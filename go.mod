@@ -1,11 +1,11 @@
 module github.com/bishopfox/sliver
 
-go 1.20
+go 1.25.0
 
 replace github.com/rsteube/carapace v0.36.3 => github.com/reeflective/carapace v0.25.2-0.20230602202234-e8d757e458ca
 
 require (
-	filippo.io/age v1.1.1
+	filippo.io/age v1.2.1
 	github.com/AlecAivazis/survey/v2 v2.3.7
 	github.com/Binject/binjection v0.0.0-20200705191933-da1a50d7013d
 	github.com/Binject/debug v0.0.0-20210312092933-6277045c2fdf
@@ -18,12 +18,12 @@ require (
 	github.com/chromedp/chromedp v0.9.1
 	github.com/glebarez/sqlite v1.8.0
 	github.com/gofrs/uuid v4.4.0+incompatible
-	github.com/google/uuid v1.3.0
+	github.com/google/uuid v1.6.0
 	github.com/gorilla/mux v1.8.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
 	github.com/jedib0t/go-pretty/v6 v6.4.6
 	github.com/kbinani/screenshot v0.0.0-20191211154542-3a185f1ce18f
-	github.com/klauspost/compress v1.17.0
+	github.com/klauspost/compress v1.18.7
 	github.com/lesnuages/go-winio v0.4.19
 	github.com/lesnuages/snitch v0.6.0
 	github.com/mattn/go-sqlite3 v1.14.17
@@ -37,21 +37,21 @@ require (
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.8.2
+	github.com/stretchr/testify v1.11.1
 	github.com/tetratelabs/wazero v1.3.1
 	github.com/things-go/go-socks5 v0.0.3
 	github.com/xlab/treeprint v1.2.0
 	github.com/yiya1989/sshkrb5 v0.0.0-20201110125252-a1455b75a35e
-	golang.org/x/crypto v0.11.0
+	golang.org/x/crypto v0.55.0
 	golang.org/x/exp v0.0.0-20230522175609-2e198f4a06a1
-	golang.org/x/net v0.11.0
-	golang.org/x/sys v0.10.0
-	golang.org/x/term v0.10.0
-	golang.org/x/text v0.11.0
+	golang.org/x/net v0.58.0
+	golang.org/x/sys v0.47.0
+	golang.org/x/term v0.45.0
+	golang.org/x/text v0.41.0
 	golang.zx2c4.com/wireguard v0.0.0-20220316235147-5aff28b14c24
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20220208144051-fde48d68ee68
-	google.golang.org/grpc v1.56.1
-	google.golang.org/protobuf v1.31.0
+	google.golang.org/grpc v1.83.2
+	google.golang.org/protobuf v1.36.11
 	gopkg.in/AlecAivazis/survey.v1 v1.8.8
 	gorm.io/driver/mysql v1.5.1
 	gorm.io/driver/postgres v1.5.2
@@ -63,7 +63,7 @@ require (
 )
 
 require (
-	filippo.io/edwards25519 v1.0.0 // indirect
+	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/Binject/shellcode v0.0.0-20191101084904-a8a90e7d4563 // indirect
 	github.com/BurntSushi/xgb v0.0.0-20201008132610-5f9e7b3c49cd // indirect
 	github.com/Microsoft/go-winio v0.6.1 // indirect
@@ -103,17 +103,18 @@ require (
 	github.com/gobwas/ws v1.1.0 // indirect
 	github.com/godbus/dbus/v5 v5.1.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
-	github.com/golang/protobuf v1.5.3 // indirect
+	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/btree v1.1.2 // indirect
-	github.com/google/go-cmp v0.5.9 // indirect
+	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/hashicorp/go-uuid v1.0.2 // indirect
 	github.com/hdevalence/ed25519consensus v0.1.0 // indirect
 	github.com/illarion/gonotify v1.0.1 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/insomniacslk/dhcp v0.0.0-20230407062729-974c6f05fe16 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
-	github.com/jackc/pgservicefile v0.0.0-20221227161230-091c0ba34f0a // indirect
-	github.com/jackc/pgx/v5 v5.3.1 // indirect
+	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
+	github.com/jackc/pgx/v5 v5.9.2 // indirect
+	github.com/jackc/puddle/v2 v2.2.2 // indirect
 	github.com/jcmturner/gofork v1.0.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
@@ -153,10 +154,10 @@ require (
 	github.com/x448/float16 v0.8.4 // indirect
 	go4.org/mem v0.0.0-20220726221520-4f986261bf13 // indirect
 	go4.org/netipx v0.0.0-20230303233057-f1b76eb4bb35 // indirect
-	golang.org/x/mod v0.10.0 // indirect
-	golang.org/x/sync v0.2.0 // indirect
+	golang.org/x/mod v0.38.0 // indirect
+	golang.org/x/sync v0.22.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
-	golang.org/x/tools v0.9.1 // indirect
+	golang.org/x/tools v0.48.0 // indirect
 	golang.zx2c4.com/wintun v0.0.0-20230126152724-0fa3db229ce2 // indirect
 	golang.zx2c4.com/wireguard/windows v0.5.3 // indirect
 	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1 // indirect
